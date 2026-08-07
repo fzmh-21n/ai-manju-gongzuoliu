@@ -1,0 +1,18 @@
+{
+  "name": "ai-manju-gongzuoliu",
+  "version": "0.1.0",
+  "description": "将文章转换为角色、场景、资产图和成套AI漫剧视频分镜提示词。",
+  "author": {
+    "name": "AI Manju Workflow"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI漫剧工作流",
+    "shortDescription": "从文章生成角色、场景与AI漫剧视频分镜",
+    "longDescription": "从完整文章按顺序提取角色与场景状态、生成角色图和四视角场景图，并分别使用绝对隔离的竖屏仿真人或横屏3D漫剧导演体系生成视频提示词。",
+    "developerName": "AI Manju Workflow",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "使用 AI漫剧工作流将我的文章制作成完整的角色、场景和视频分镜提示词。"
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI漫剧工作流"
+  short_description: "从完整文章提取角色场景并生成成套AI漫剧视频分镜提示词"
+  default_prompt: "使用 $ai-manju-gongzuoliu 将我的文章制作成完整的AI漫剧工作流。"
+
+policy:
+  allow_implicit_invocation: true
