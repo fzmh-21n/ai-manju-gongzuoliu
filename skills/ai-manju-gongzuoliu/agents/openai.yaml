@@ -1,7 +1,7 @@
 interface:
   display_name: "AI漫剧工作流"
-  short_description: "统一15秒规则生成16:9资产与竖屏或横屏视频提示词"
-  default_prompt: "使用 $ai-manju-gongzuoliu 将我的文章制作成16:9角色场景资产，并按我选择的竖屏或横屏比例生成视频提示词。"
+  short_description: "按工作目录生成16:9资产、分集剧本与15秒和30秒双套视频提示词"
+  default_prompt: "使用 $ai-manju-gongzuoliu 将我的文章制作成角色场景资产和分集剧本，再按我选择的竖屏或横屏类型逐集生成15秒与30秒两套视频提示词，分别存入工作目录的最终资产、剧本、15s和30s文件夹。"
 
 policy:
   allow_implicit_invocation: true
